@@ -1,0 +1,134 @@
+ /* Modern styling with improved visual appeal */
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+    background-color: #191970;
+    padding: 20px;
+   
+    color: white;
+}
+
+.navbar-custom {
+    border-radius: 25px;
+    overflow: hidden;
+    color: #191970;
+    --bs-navbar-color: #191970;
+    --bs-navbar-hover-color: #191970;
+    --bs-navbar-active-color: #191970;
+    --bs-navbar-brand-color: #191970;
+    --bs-navbar-brand-hover-color: #191970;
+    --bs-navbar-disabled-color: #191970;
+    
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+
+.navbar-custom .nav-link:focus,
+
+.navbar-custom .nav-link.disabled,
+.navbar-custom .dropdown-item,
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus,
+.navbar-custom .navbar-text {
+    color: #191970 !important;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+    font-weight: 400;
+   
+}
+
+.navbar-custom .nav-link.active {
+    color:blue!important;
+    font-weight: 700;
+    
+}
+.navbar-custom .navbar-brand{
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover,
+.site-footer ul li:hover ,
+.site-footer a i:hover {
+    
+    transform: translateY(-4px);
+    font-weight: 600;
+}
+
+.image-frame {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(74, 7, 245, 0.35);
+}
+
+.image-frame img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.image-frame::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(74, 32, 224, 0.45), rgba(47, 15, 189, 0.4));
+    pointer-events: none;
+    
+}
+
+/* Section Styles */
+#about {
+    color: #191970;
+}
+
+
+
+/* Footer Styles */
+.site-footer {
+    background-color: #191970;
+    padding: 10px;
+    color: white;
+}
+.site-footer a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.site-footer ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.site-footer ul li {
+    padding: 5px 0px;
+    list-style: none;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+.site-footer a i{
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    color: white;
+    border: white solid 1px;
+    border-radius: 50%;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+   
+    
