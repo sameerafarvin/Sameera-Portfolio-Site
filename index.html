@@ -18,7 +18,7 @@
 <!-- Combined with flex-grow-1 on main, this keeps the footer at the bottom -->
 
 <body class="d-flex flex-column min-vh-100">
-  <header class="site-header ">
+  <header class=" site-header ">
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed navbar-custom my-2">
       <div class="container-fluid">
@@ -36,7 +36,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projects</a>
@@ -69,6 +69,8 @@
           Whether you need a business website, portfolio, or custom web application, I can help bring your ideas to
           life.
         </p>
+       <a href="#contact" class="btn btn-primary btn-lg mt-3 align-self-start custom-button-outline">Contact Me</a>
+       
       </div>
 
     </div>
@@ -82,7 +84,7 @@
       <div class="row ">
         <div class="col-12  text-center justify-content-center ">
           <h2 class="display-4 fw-bold pb-1">About Me</h2>
-          <div class="border shadow bg-white p-4  text-start rounded p-lg-4 mt-2 fs-5">
+          <div class="border shadow bg-white p-4  text-start rounded p-lg-4 mt-5 fs-5">
             <p class="text-start">I am a Full Stack Web Developer who completed a <strong>16-week Skills Bootcamp in
                 Full Stack
                 Development </strong> with Code
@@ -106,51 +108,107 @@
     <section id="skills" class="container pt-5">
       <div class="row">
         <div class="col-12  text-center justify-content-center">
-          <h2 class="display-4 fw-bold">My Skills</h2>
-          <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/images/skill1.png" class="d-block w-25" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/skill2.png" class="d-block w-25" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/skill3.png" class="d-block w-25" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+          <h2 class="display-4 fw-bold pb-1">My Skills</h2>
+          <!-- Skills Carousel -->
+          <div id="multiImageCarousel" class="carousel slide  shadow bg-white mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col"><img src="assets/images/html5.png" class="d-block w-75" alt="HTML Logo">
+                  </div>
+                  <div class="col"><img src="assets/images/css.png" class="d-block w-75" alt="CSS Logo">
+                  </div>
+                  <div class="col"><img src="assets/images/js.png" class="d-block w-75" alt="JavaScript Logo">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col"><img src="assets/images/skill1.png" class="d-block w-75" alt="Python Logo">
+                  </div>
+                  <div class="col"><img src="assets/images/skill2.png" class="d-block w-75" alt="Django Logo">
+                  </div>
+                  <div class="col"><img src="assets/images/postgresql.png" class="d-block w-75" alt="PostgreSQL Logo">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col"><img src="assets/images/mysql.png" class="d-block w-75" alt="Python Logo">
+                  </div>
+                  <div class="col"><img src="assets/images/heroku.webp" class="d-block w-75" alt="Django Logo">
+                  </div>
+                  <div class="col"><img src="assets/images/github.jpg" class="d-block w-75" alt="PostgreSQL Logo">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Carousel controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#multiImageCarousel"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#multiImageCarousel"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
+      </div>
 
 
       </div>
     </section>
 
-    <section id="projects" class="projects">
-      <div class="container">
-        <h2></h2>
+    <section id="projects" class="container pt-5">
+      <div class="row">
+        <div class="col-12  text-center justify-content-center ">
+          <h2 class="display-4 fw-bold pb-1">Projects</h2>
 
-        <div class="project-grid">
-          <article class="project-card">
+          <div class="col-12 d-flex flex-md-row  justify-content-center align-items-center gap-4 flex-wrap mt-5">
+            <div class="card border-0 " style="width: 100%; max-width: 30rem;">
+              <img src="assets/images/safe.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s
+                  content.</p>
+                <a href="#" class="btn btn-primary">Live  ></a>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 100%; max-width: 30rem;">
+              <img src="assets/images/bee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s
+                  content.</p>
+                <a href="#" class="btn btn-primary">Live  ></a>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 100%; max-width: 30rem;">
+              <img src="assets/images/bee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s
+                  content.</p>
+                <a href="#" class="btn btn-primary">Live   </a>
+              </div>
+            </div>
 
-          </article>
-
-          <article class="project-card">
-
-          </article>
-
-          <article class="project-card">
-
-          </article>
+          </div>
         </div>
+
+
+
       </div>
     </section>
 
