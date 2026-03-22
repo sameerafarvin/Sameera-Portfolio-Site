@@ -5,6 +5,7 @@
      font-family: 'Source Sans Pro', sans-serif;
     
  }
+ 
 
  header {
      background-color: #191970;
@@ -91,7 +92,7 @@
 /*button styles */
     .btn-primary {
         background-color: #191970;
-       border-radius:25px;
+        border-radius:25px;
         border: #191970 solid 1px;
         padding: 10px 25px;
         font-weight:bold;
@@ -105,12 +106,21 @@
      transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
     padding: 10px 25px;
     color: white;
+   
 }
 
 .custom-button-outline:hover {
     background-color:white;
     color: #191970;
-    border-color: rgb(251, 251, 252);
+    border-color: #191970;
+    transform: translateY(-4px);
+    
+}
+.custom-button-fill:hover {
+    background-color:white;
+    color: #191970;
+    border: 2px solid #191970;
+    font-weight:bold;
     transform: translateY(-4px);
     
 }
@@ -118,6 +128,13 @@
  #about, #skills, #projects, #contact {
     color: #191970;
  }
+
+#projects .card-title,
+#projects .card-text {
+    color: #191970;
+}
+
+
 
  /* Carousel Styles */
  .carousel-item img {
@@ -135,6 +152,11 @@
      padding: 0px;
  }
 
+/*contact form styles */
+#contact form {
+    background-color: #191970 !important;
+    color: white;
+}
 
 
  /* Footer Styles */
