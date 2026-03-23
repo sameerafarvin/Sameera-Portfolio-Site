@@ -18,7 +18,7 @@
 <!-- Combined with flex-grow-1 on main, this keeps the footer at the bottom -->
 
 <body class="d-flex flex-column min-vh-100">
-  <header class=" site-header ">
+  <header id="home" class=" site-header ">
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed navbar-custom my-2">
       <div class="container-fluid">
@@ -41,11 +41,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
 
 
@@ -62,7 +60,7 @@
       </div>
       <div class="col-12 col-xl-6 ms-lg-5  d-flex flex-column  justify-content-center ">
         <h1 class="display-3 fw-bold">Sameera Farvin</h1>
-        <p class="fs-4"> Tech Professional | Junior Full Stack Web Developer</p>
+        <p class="fs-4"> Junior Tech Professional | Junior Full Stack Web Developer</p>
         <p class="fs-5  text-start">
           I build modern, responsive websites and web applications designed to help businesses grow online.
           I create websites that are visually appealing, functional, and user-friendly.
@@ -85,19 +83,23 @@
         <div class="col-12  text-center justify-content-center ">
           <h2 class="display-3 fw-bold pb-1">About Me</h2>
           <div class="border shadow  p-4  text-start rounded p-lg-4 mt-5 fs-5">
-            <p class="text-start">I am a Full Stack Web Developer who completed a <strong>16-week Skills Bootcamp in
-                Full Stack
-                Development </strong> with Code
-              Institute.
-              During the programme I developed strong skills in both front-end and back-end development, learning how to
-              design, build, and deploy modern web applications.</p>
+            <p class="text-start">I’m a junior full stack developer with a Bachelor’s degree in Computer Science and
+              Engineering and recent training from a <strong>16-week AI-augmented full stack development
+                bootcamp</strong> at Code
+              Institute.</p>
 
-            My goal is to help businesses and individuals create a strong digital presence by building reliable and
-            professional websites.
-            I am passionate about <strong>continuous learning</strong> and <strong>improving my skills</strong> while
-            delivering practical
-            solutions for
-            clients.
+            <p>I have hands-on experience building web applications using <strong>HTML, CSS, Bootstrap, JavaScript, and
+                Python</strong>,
+              along with knowledge of MySQL for database setup, monitoring, and maintenance. I’ve worked on portfolio
+              projects where I applied coding, testing, and debugging using browser developer tools and manual testing
+              techniques.</p>
+
+
+
+            I’m passionate about <strong>continuous learning</strong> and <strong>enjoy improving my skills</strong>
+            through personal projects and
+            self-study. I’m currently seeking an opportunity to contribute to a development team and grow as a software
+            developer.
 
           </div>
 
@@ -114,7 +116,7 @@
             <div class="carousel-inner">
 
               <div class="carousel-item active">
-                <div class="row mx-auto">
+                <div class="row mx-3">
                   <div class="col"><img src="assets/images/html5.png" class="d-block w-75" alt="HTML Logo">
                   </div>
                   <div class="col"><img src="assets/images/css.png" class="d-block w-75" alt="CSS Logo">
@@ -126,7 +128,7 @@
               </div>
 
               <div class="carousel-item">
-                <div class="row mx-auto">
+                <div class="row mx-3">
                   <div class="col"><img src="assets/images/skill1.png" class="d-block w-75" alt="Python Logo">
                   </div>
                   <div class="col"><img src="assets/images/mysql.png" class="d-block w-75" alt="Django Logo">
@@ -136,7 +138,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row mx-auto">
+                <div class="row mx-3">
                   <div class="col"><img src="assets/images/skill2.png" class="d-block w-75" alt="Python Logo">
                   </div>
                   <div class="col"><img src="assets/images/heroku.webp" class="d-block w-75" alt="Django Logo">
@@ -177,30 +179,35 @@
               <img src="assets/images/safe.png" class="card-img-top" alt="...">
               <div class="card-body border-bottom">
                 <h5 class="card-title fw-bold h2">Awareness App</h5>
-                <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the
-                  card’s
-                  content.</p>
-                <a href="#" class="btn btn-primary custom-button-fill">Live Project </a>
+                <p class="card-text text-start">A static website built with HTML, CSS, and Bootstrap to provide clear
+                  and accessible information on child safeguarding.Practiced responsive design and content organization
+                  while creating a user-friendly awareness resource.</p>
+                <a href="https://sameerafarvin.github.io/safe-sunflower/"
+                  class="btn btn-primary custom-button-fill">Live Project </a>
               </div>
             </div>
             <div class="card border-0" style="width: 100%; max-width: 30rem;">
               <img src="assets/images/bee.png" class="card-img-top" alt="...">
               <div class="card-body border-bottom ">
                 <h5 class="card-title fw-bold h2"> Quiz App</h5>
-                <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the
-                  card’s
-                  content.</p>
-                <a href="#" class="btn btn-primary custom-button-fill">Live Project </a>
+                <p class="card-text text-start">An interactive quiz web app built with HTML, CSS, Bootstrap, and
+                  JavaScript. Fun, engaging quizzes on multiple topics, allowing users to test their knowledge while
+                  enjoying a dynamic, interactive experience,with a focus on user engagement and learning.</p>
+                <a href="https://nanamontford.github.io/bee-brain/" class="btn btn-primary custom-button-fill">Live
+                  Project </a>
               </div>
             </div>
             <div class="card border-0 " style="width: 100%; max-width: 30rem;">
               <img src="assets/images/fb.png" class="card-img-top " alt="...">
               <div class="card-body border-bottom ">
                 <h5 class="card-title fw-bold h2">Online Shopping App</h5>
-                <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the
-                  card’s
-                  content.</p>
-                <a href="#" class="btn btn-primary custom-button-fill">Live Project </a>
+                <p class="card-text text-start">A Django-powered web app that lets users browse food products by
+                  category. Built with Python,Django, HTML, CSS, javascript and Bootstrap, this project demonstrates
+                  backend development, database integration, user authentication, and responsive design for a real-world
+                  experience.
+                </p>
+                <a href="https://foodbazaar-d7ad1d262899.herokuapp.com/" class="btn btn-primary custom-button-fill">Live
+                  Project </a>
               </div>
             </div>
 
@@ -214,28 +221,31 @@
 
     <section id="contact" class="container ">
       <div class="row justify-content-center pb-4">
-       
-       
+
+
         <div class="col-12 col-xl-10  py-2 d-flex ">
-           
-          <form class="border  p-5  rounded p-lg-4 mt-5 fs-5 w-100 h-100">
-             <div class="col-12  text-center justify-content-center ">
-          <h2 class="display-3 fw-bold pb-1">Get In Touch</h2>
-         
-       </div>
-            <p class="fs-6 p-2  text-start"> If you have a project in mind or would like to discuss how I can help you build a
-            modern, responsive website, please feel free to reach out to me.</p>
+
+          <form id="contactForm" class="border  p-5  rounded p-lg-4 mt-5 fs-5 w-100 h-100"
+            action="https://formspree.io/f/xreywdpl" method="POST">
+            <div class="col-12  text-center justify-content-center ">
+              <h2 class="display-3 fw-bold pb-1">Get In Touch</h2>
+
+            </div>
+            <p class="fs-6 p-2  text-start"> If you have a project in mind or would like to discuss how I can help you
+              build a
+              modern, responsive website, please feel free to reach out to me.</p>
             <div class="mb-3 ">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message"
+                required></textarea>
             </div>
             <button type="submit" class="btn btn-primary custom-button-outline  mt-3">Send Message</button>
           </form>
@@ -247,12 +257,34 @@
     </section>
   </main>
 
+  <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
+          <button type="button" class="btn-close  " data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Your message has been sent successfully. I will get back to you soon.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button id="scrollTopBtn" type="button" class="btn btn-primary" aria-label="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
   <footer class=" site-footer  mt-5">
     <div class=" container text-left mt-5">
       <div class="row  row-cols-1 row-cols-md-3 mt-3">
         <div class="col">
           <h3 class="fw-bold fs-1">Sameera</h3>
-          <p> Tech Professional | Junior Full Stack Web Developer</p>
+          <p> Junior Tech Professional | Junior Full Stack Web Developer</p>
         </div>
         <div class="col">
           <h3>Quick Links</h3>
@@ -266,13 +298,16 @@
         </div>
         <div class="col">
           <h3>Contact</h3>
-          <p>Email: sameera@example.com</p>
-          <p>location: Preston, UK</p>
+          <p><i class="fas fa-envelope"></i> sameeraismaaeel@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Preston, UK</p>
 
           <p>
-            <a href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-            <a href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-            <a href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/sameera-farvin/" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/sameerafarvin" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-github"></i></a>
+            <a href="https://wa.me/+447587391038" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-whatsapp"></i></a>
           </p>
         </div>
 
@@ -289,6 +324,52 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script>
+    const contactForm = document.getElementById('contactForm');
+    const thankYouModalElement = document.getElementById('thankYouModal');
+    const thankYouModal = new bootstrap.Modal(thankYouModalElement);
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    /* Show the scroll-to-top button when the user scrolls down 300px from the top of the page, and hide it when they scroll back up. When the button is clicked, smoothly scroll back to the top of the page. */
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollTopBtn.classList.add('show');
+      } else {
+        scrollTopBtn.classList.remove('show');
+      }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    /*end scroll */
+    /* form submission handling: prevents default form submission, gathers form data, and sends it to Formspree using the Fetch API. If the submission is successful, it resets the form and shows a thank-you modal. If there's an error, it alerts the user. */
+    contactForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const formData = new FormData(contactForm);
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: contactForm.method,
+          body: formData,
+          headers: {
+            Accept: 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          contactForm.reset();
+          thankYouModal.show();
+        } else {
+          alert('Something went wrong. Please try again.');
+        }
+      } catch (error) {
+        alert('Unable to send your message right now. Please try again later.');
+      }
+    });
+  </script>
 </body>
 
 </html>
